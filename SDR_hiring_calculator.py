@@ -32,4 +32,4 @@ tool_cost = st.slider(
 total_cost_of_ownership = total_cost(num_sdr, rep_salary, open_headcount, tool_cost)
 
 st.markdown("---")
-st.metric("📊 Your Total Cost of Ownership", f"**${total_cost_of_ownership:,.0f}**")
+st.metric("📊 Your Total Cost of Ownership", f"*${total_cost_of_ownership:,.0f}*")
